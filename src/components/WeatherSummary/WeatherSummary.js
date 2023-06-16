@@ -6,7 +6,7 @@ const WeatherSummary = ({ city, temp, icon, description}) => {
       <img
         className={styles.weatherIcon}
         alt={description}
-        src={`${process.env.PUBLIC_URL}/images/weather-icons/${icon}.png`} />
+        src={`/images/weather-icons/${icon}.png`} />
       <div className={styles.weatherInfo}>
         <h2>{city}</h2>
         <p>

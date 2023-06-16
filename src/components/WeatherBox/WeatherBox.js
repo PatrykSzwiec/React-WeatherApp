@@ -19,7 +19,7 @@ const WeatherBox = () => {
 
     setPending(true);
 
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=32fe6d9b5e49112a35dd803d0c5e160c&units=metric`)
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=4194dde457584eb858a39d53167569b5&units=metric`)
     .then(res => {
       if(res.status === 200) {
         setError(false);
