@@ -24,7 +24,6 @@ const WeatherBox = () => {
       if(res.status === 200) {
         setError(false);
         return res.json()
-
         .then(data => {
           const weatherData = {
             city: data.name,
